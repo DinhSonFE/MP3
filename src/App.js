@@ -44,7 +44,7 @@ function App() {
         setShowMenu,
       }}
     >
-      <div className="App">
+      <div className="App max-h-screen">
         {loading ? (
           <Loading></Loading>
         ) : (
