@@ -2,7 +2,7 @@ import React from "react";
 import "./Loading.css";
 const Loading = () => {
   return (
-    <div>
+    <div className="loading">
       <div className="container">
         <svg height="200" width="200">
           <circle

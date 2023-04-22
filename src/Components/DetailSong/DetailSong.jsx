@@ -12,7 +12,7 @@ const DetailSong = ({ detailSong }) => {
         </span>
       </div>
       <div
-        className={`max-w-72 max-h-72  flex justify-center items-center relative before:content-[''] before:absolute before:w-12 before:h-12 before:bg-white before:rounded-full before:border-2 before:border-black rounded-full border-2 border-white overflow-hidden ${
+        className={`max-w-72 max-h-72 w-72 h-72  flex justify-center items-center relative before:content-[''] before:absolute before:w-12 before:h-12 before:bg-white before:rounded-full before:border-2 before:border-black rounded-full border-2 border-white overflow-hidden ${
           playingSong ? "animation-music" : ""
         }`}
       >
