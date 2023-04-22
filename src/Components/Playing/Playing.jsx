@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import { context } from "../../App";
+import "./Playing.css";
 const Playing = ({ urlSong }) => {
   const { setPlayingSong, setIdSong } = useContext(context);
   // ! handle song playing

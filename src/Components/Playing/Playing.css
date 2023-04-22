@@ -22,14 +22,3 @@
 .rhap_progress-indicator {
   background-color: #fff !important;
 }
-.animation-music {
-  animation: spin 6s infinite linear;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
