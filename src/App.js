@@ -15,7 +15,7 @@ function App() {
   // ! Fetching Data
   useEffect(() => {
     axios
-      .get("http://localhost:3000/song")
+      .get("https://mp3-sever.vercel.app/song")
       .then((response) => {
         setListSong(response.data);
       })
