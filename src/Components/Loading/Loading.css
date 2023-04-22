@@ -1,0 +1,55 @@
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(
+    25deg,
+    rgba(3, 15, 27, 1) 0%,
+    rgba(20, 59, 68, 1) 100%
+  );
+}
+
+svg {
+  filter: drop-shadow(0px 0px 8px rgb(255 255 255 / 1));
+}
+
+.container {
+  position: relative;
+  animation: spin 1.4s linear infinite;
+}
+
+.ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  stroke-dasharray: 60 440;
+  stroke-dashoffset: -500;
+  stroke-width: 10px;
+  animation: shift 3.2s ease-in-out infinite;
+}
+
+@keyframes shift {
+  0% {
+  }
+  50% {
+    stroke-dasharray: 400 100;
+    stroke-dashoffset: -350;
+  }
+  100% {
+  }
+}
+
+@keyframes shift-test {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
