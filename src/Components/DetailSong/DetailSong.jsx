@@ -4,7 +4,7 @@ import "./DetailSong.css";
 const DetailSong = ({ detailSong }) => {
   const { playingSong } = useContext(context);
   return (
-    <div className="col-span-1 items-center flex justify-between flex-col md:border-r md:border-white max-h-screen">
+    <div className="col-span-1 items-center flex justify-between flex-col md:border-r md:border-white h-content-height">
       <div className="">
         <h1 className="text-gray-400 font-extrabold text-xs">NOW PLAYING</h1>
         <span className="font-extrabold text-2xl text-white">
