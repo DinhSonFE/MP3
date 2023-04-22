@@ -1,0 +1,33 @@
+.rhap_container {
+  height: 5rem;
+  background-color: #170f23 !important;
+}
+.rhap_time {
+  color: #fff !important;
+}
+.rhap_container svg {
+  color: #fff !important;
+}
+.rhap_progress-filled {
+  background-image: linear-gradient(
+    to right,
+    #009ddc,
+    #48aa3f,
+    #f47a1b,
+    #ed2775
+  ) !important;
+}
+.rhap_progress-indicator {
+  background-color: #fff !important;
+}
+.animation-music {
+  animation: spin 6s infinite linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
