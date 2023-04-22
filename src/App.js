@@ -50,7 +50,7 @@ function App() {
         ) : (
           <div>
             <Header></Header>
-            <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-x-4 bg-bg-sc h-content-height justify-start p-4 ">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-x-4 bg-bg-sc h-content-height justify-start p-6">
               <DetailSong detailSong={detailSong}></DetailSong>
               <ListSong listSong={listSong || []}></ListSong>
             </div>

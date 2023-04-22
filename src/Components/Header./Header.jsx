@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <div className="h-20 w-full bg-bg-pr py-4 flex px-4 justify-between md:justify-center items-center fixed top-0 left-0 right-0 z-50">
+    <div className="h-20 w-full bg-bg-pr py-4 flex px-4 justify-between md:justify-center items-center ">
       <img src={logo} alt="" className="h-full" />
       <div onClick={handelShowMenu}>
         <IoMenu
